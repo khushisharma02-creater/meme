@@ -1,0 +1,79 @@
+c<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Funny Memes Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #222;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff4757;
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+        .meme {
+            background: #333;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        }
+        .meme img {
+            width: 100%;
+            display: block;
+        }
+        .caption {
+            padding: 10px;
+            font-size: 1.2em;
+            text-align: center;
+            color: #ff6b81;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #111;
+            color: #888;
+            margin-top: 40px;
+        }
+        @media (max-width: 600px) {
+            header {
+                font-size: 1.5em;
+            }
+            .caption {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>Funny Memes Hub</header>
+    <div class="container">
+        <div class="meme">
+            <img src="https://i.imgur.com/8pOZmtW.jpg" alt="Meme 1" />
+            <div class="caption">When the code finally runs without errors!</div>
+        </div>
+        <div class="meme">
+            <img src="https://i.imgur.com/w3duR07.png" alt="Meme 2" />
+            <div class="caption">Monday morning mood be like...</div>
+        </div>
+        <div class="meme">
+            <img src="https://i.imgur.com/4AiXzf8.jpeg" alt="Meme 3" />
+            <div class="caption">Me trying to explain my goals to my parents</div>
+        </div>
+    </div>
+    <footer>&copy; 2025 Funny Memes Hub</footer>
+</body>
+</html>
